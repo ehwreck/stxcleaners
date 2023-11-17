@@ -6,6 +6,58 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+/* 
+font-family: 'Oswald', sans-serif;
+*/
+#main-header-bg{
+  background-image: url("../public/assets/images/nastuh-abootalebi-yWwob8kwOCk-unsplash.jpg");
+  background-position: center;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main-header-bg > div{
+  text-align: center;
+}
+
+#main-header-logo{
+  height: 4rem;
+  margin-left: 5px;
+}
+
+#header-brand{
+  margin-left: 15px;
+  font-size: 1.5rem;
+  vertical-align: middle;
+}
+
+#main-big-header{
+  display: block;
+  font-family: 'Lobster', sans-serif;
+  font-size: 265px;
+  color: white;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#main-subtitle{
+  display: block;
+  font-size: 60px;
+  color:rgb(1, 136, 232);
+  margin-top: auto;
+  margin-bottom: auto;
+  text-shadow:
+  0.05em 0 white,
+  0 0.05em white,
+  -0.05em 0 white,
+  0 -0.05em white,
+  -0.05em -0.05em white,
+  -0.05em 0.05em white,
+  0.05em -0.05em white,
+  0.05em 0.05em white;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
