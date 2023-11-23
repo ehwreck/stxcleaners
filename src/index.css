@@ -9,54 +9,48 @@ body {
 /* 
 font-family: 'Oswald', sans-serif;
 */
-#main-header-bg{
-  background-image: url("../public/assets/images/nastuh-abootalebi-yWwob8kwOCk-unsplash.jpg");
-  background-position: center;
-  height: 90vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+#main-navigation-transparent{
+  background-color: #0000007d;
+  color: white;
+  /* border-bottom: solid 3px rgb(133, 173, 238); */
 }
 
-#main-header-bg > div{
-  text-align: center;
-}
-
-#main-header-logo{
-  height: 4rem;
+#main-header-logo-transparent{
+  height: 3rem;
   margin-left: 5px;
+  vertical-align: middle;
+  color: white;
 }
 
-#header-brand{
+#header-brand-transparent{
   margin-left: 15px;
   font-size: 1.5rem;
   vertical-align: middle;
-}
-
-#main-big-header{
-  display: block;
-  font-family: 'Lobster', sans-serif;
-  font-size: 265px;
   color: white;
-  margin-top: auto;
-  margin-bottom: auto;
 }
 
-#main-subtitle{
-  display: block;
-  font-size: 60px;
-  color:rgb(1, 136, 232);
-  margin-top: auto;
-  margin-bottom: auto;
-  text-shadow:
-  0.05em 0 white,
-  0 0.05em white,
-  -0.05em 0 white,
-  0 -0.05em white,
-  -0.05em -0.05em white,
-  -0.05em 0.05em white,
-  0.05em -0.05em white,
-  0.05em 0.05em white;
+.transparent-link{
+  color: white!important;
+  text-decoration: none;
+}
+
+#main-navigation{
+  background-color: #ffffff;
+  border-bottom: solid 3px rgb(0, 0, 64);
+}
+
+#main-header-logo{
+  color: rgb(0, 0, 64);
+  height: 3rem;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+#header-brand{
+  color: rgb(0, 0, 64);
+  margin-left: 15px;
+  font-size: 1.5rem;
+  vertical-align: middle;
 }
 
 code {
@@ -64,6 +58,5 @@ code {
     monospace;
 }
 
-#main-navigation{
-  background-color: #0000007d;
-}
+
+

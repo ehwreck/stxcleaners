@@ -1,0 +1,102 @@
+#main-header-bg{
+  background-image:
+  linear-gradient(90deg, rgba(0,212,255,.25) 0%, rgba(10,10,122,.25) 65%, rgba(2,0,36,.25) 100%),
+  url("../../public/assets/images/nastuh-abootalebi-yWwob8kwOCk-unsplash.jpg");
+  background-position: center;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-animation: Animation 10s ease-in-out infinite;
+  -moz-animation: Animation 10s ease-in-out infinite;
+  animation: Animation 10s ease-in-out infinite;
+}
+
+#main-header-bg > div{
+  text-align: center;
+}
+
+#main-big-header{
+  display: block;
+  font-family: 'Lobster', sans-serif;
+  font-size: 265px;
+  color: white;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#main-subtitle{
+  display: block;
+  font-size: 50px;
+  color:rgb(1, 136, 232);
+  /* color: rgb(0, 0, 64); */
+  margin-top: auto;
+  margin-bottom: auto;
+  text-shadow:
+  0.02em 0 white,
+  0 0.02em white,
+  -0.02em 0 white,
+  0 -0.02em white,
+  -0.02em -0.02em white,
+  -0.02em 0.02em white,
+  0.02em -0.02em white,
+  0.02em 0.02em white;
+}
+
+#welcome{
+  background-color: rgb(1, 136, 232);
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0px 50px 0px;
+}
+
+#welcome > h3 {
+  margin: 25px 0px 25px 0px;
+  text-align: center;
+  color: white;
+  font-size: 2.5rem;
+}
+
+#welcome > p {
+  color: white;
+  font-size: 1.2rem;
+  width: 60%;
+  text-align: center;
+  margin: 25px auto 25px auto;
+}
+
+@-webkit-keyframes Animation {
+  0%{
+    background-position:40% 90%
+  }
+  50%{
+    background-position:90% 5%
+  }
+  100%{
+    background-position:40% 90%
+  }
+}
+
+@-moz-keyframes Animation {
+  0%{
+    background-position:40% 90%
+  }
+  50%{
+    background-position:90% 5%
+  }
+  100%{
+    background-position:40% 90%
+  }
+}
+
+@keyframes Animation { 
+  0%{
+    background-position:40% 90%
+  }
+  50%{
+    background-position:90% 5%
+  }
+  100%{
+    background-position:40% 90%
+  }
+}
